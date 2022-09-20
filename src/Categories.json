@@ -1,0 +1,34 @@
+[
+    {
+        "id": "🍕",
+        "cat": "Pizza"
+    },
+    {
+        "id": "🥞",
+        "cat": "Desayuno"
+    },
+    {
+        "id": "🍨",
+        "cat": "Helado"
+    },
+    {
+        "id": "🍔",
+        "cat": "Hamburguesa"
+    },
+    {
+        "id": "🌮",
+        "cat": "Mexicana"
+    },
+    {
+        "id": "🍣",
+        "cat": "Japonesa"
+    },
+    {
+        "id": "💊",
+        "cat": "Farmacia"
+    },
+    {
+        "id": "🛵",
+        "cat": "Envios"
+    }
+]
