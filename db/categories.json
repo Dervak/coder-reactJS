@@ -1,0 +1,50 @@
+[
+    {
+        "id": "🍕",
+        "cat": "Pizza",
+        "stores": "db/stores-db/pizza-stores.json",
+        "link": "pizza-stores"
+    },
+    {
+        "id": "🥞",
+        "cat": "Desayuno",
+        "stores": "db/stores-db/breakfast-stores.json",
+        "link": "breakfast-stores"
+    },
+    {
+        "id": "🍨",
+        "cat": "Helado",
+        "stores": "db/stores-db/icecream-stores.json",
+        "link": "icecream-stores"
+    },
+    {
+        "id": "🍔",
+        "cat": "Hamburguesa",
+        "stores": "db/stores-db/burger-stores.json",
+        "link": "burger-stores"
+    },
+    {
+        "id": "🌮",
+        "cat": "Mexicana",
+        "stores": "db/stores-db/mexican-stores.json",
+        "link": "mexican-stores"
+    },
+    {
+        "id": "🍣",
+        "cat": "Japonesa",
+        "stores": "db/stores-db/japanese-stores.json",
+        "link": "japanese-stores"
+    },
+    {
+        "id": "💊",
+        "cat": "Farmacia",
+        "stores": "db/stores-db/pharmacy-stores.json",
+        "link": "pharmacy-stores"
+    },
+    {
+        "id": "🛵",
+        "cat": "Envios",
+        "stores": "db/stores-db/pizza-stores.json",
+        "link": "pizza-stores"
+    }
+]

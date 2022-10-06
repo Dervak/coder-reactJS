@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Ham-Borguesa",
+        "img": "burger.png"
+    },
+    {
+        "id": "2",
+        "name": "Cactus Burger",
+        "img": "burger.png"
+    },
+    {
+        "id": "3",
+        "name": "Cheese'N Burger",
+        "img": "burger.png"
+    },
+    {
+        "id": "4",
+        "name": "El Rey de la Hamburguesa",
+        "img": "burger.png"
+    },
+    {
+        "id": "5",
+        "name": "KB Fast Food",
+        "img": "burger.png"
+    },
+    {
+        "id": "6",
+        "name": "Mi Barrio Hamburgueseria",
+        "img": "burger.png"
+    },
+    {
+        "id": "7",
+        "name": "Distrito Burger",
+        "img": "burger.png"
+    },
+    {
+        "id": "8",
+        "name": "American Burger",
+        "img": "burger.png"
+    }
+]

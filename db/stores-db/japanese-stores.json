@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Osaki Sushi",
+        "img": "japanese.png"
+    },
+    {
+        "id": "2",
+        "name": "Makisu Sushi",
+        "img": "japanese.png"
+    },
+    {
+        "id": "3",
+        "name": "Kokito",
+        "img": "japanese.png"
+    },
+    {
+        "id": "4",
+        "name": "Sushi Kyu",
+        "img": "japanese.png"
+    },
+    {
+        "id": "5",
+        "name": "Izakaya",
+        "img": "japanese.png"
+    },
+    {
+        "id": "6",
+        "name": "Oriente Sushi",
+        "img": "japanese.png"
+    },
+    {
+        "id": "7",
+        "name": "Sushi Club",
+        "img": "japanese.png"
+    },
+    {
+        "id": "8",
+        "name": "Fabric Sushi",
+        "img": "japanese.png"
+    }
+]
