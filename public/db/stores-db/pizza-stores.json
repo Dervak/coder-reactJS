@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "name": "Pizzeria 1867",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "2",
+        "name": "Pizzeria Pasillo",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "3",
+        "name": "Kelo Pizza",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "4",
+        "name": "Con Oliva",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "5",
+        "name": "Chango Pizzero",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "6",
+        "name": "Pizza sin patrón",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "7",
+        "name": "Mufasa",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "8",
+        "name": "Thionis Pizza",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "9",
+        "name": "Michi Pizzeria",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "10",
+        "name": "Pizzeria Pasillo",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "11",
+        "name": "Kelo Pizza",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "12",
+        "name": "Con Oliva",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "13",
+        "name": "Chango Pizzero",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "14",
+        "name": "Pizza sin patrón",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "15",
+        "name": "Mufasa",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    },
+    {
+        "id": "16",
+        "name": "Thionis Pizza",
+        "img": "pizza.png",
+        "link": "con-oliva",
+        "products": "db/stores-db/pizza-db/con-oliva.json"
+    }
+]

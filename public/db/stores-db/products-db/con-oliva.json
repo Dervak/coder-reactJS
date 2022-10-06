@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "name": "Pizza de muzza",
+        "price": "900",
+        "description": "Pizza media masa con queso muzzarella."
+    },
+    {
+        "id": "2",
+        "name": "Pizza Napolitana",
+        "price": "1100",
+        "description": "Pizza media masa con queso muzzarella."
+    },
+    {
+        "id": "3",
+        "name": "Pizza de champignones",
+        "price": "1900",
+        "description": "Pizza hecha con masa que leudo mas de lo que sería normal. Creiste que tenía champignones por eso se llamaba así? Jajajaja, bueno igual también tiene champignones en el queso."
+    },    {
+        "id": "4",
+        "name": "Pizza especial",
+        "price": "1200",
+        "description": "Pizza media masa con queso muzzarella."
+    },
+    {
+        "id": "5",
+        "name": "Pizza con ANANA",
+        "price": "0",
+        "description": "Pizza media masa con queso muzzarella."
+    },
+    {
+        "id": "6",
+        "name": "Pizza de roquefort",
+        "price": "1400",
+        "description": "Pizza media masa con queso muzzarella."
+    },
+    {
+        "id": "7",
+        "name": "Pizza 4 quesos",
+        "price": "1500",
+        "description": "Pizza media masa con queso muzzarella."
+    }
+]

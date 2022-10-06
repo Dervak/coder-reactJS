@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Nicolo",
+        "img": "icecream.png"
+    },
+    {
+        "id": "2",
+        "name": "Helados Daniel",
+        "img": "icecream.png"
+    },
+    {
+        "id": "3",
+        "name": "El Hado",
+        "img": "icecream.png"
+    },
+    {
+        "id": "4",
+        "name": "Occo",
+        "img": "icecream.png"
+    },
+    {
+        "id": "5",
+        "name": "Luccianos",
+        "img": "icecream.png"
+    },
+    {
+        "id": "6",
+        "name": "Helados Miau",
+        "img": "icecream.png"
+    },
+    {
+        "id": "7",
+        "name": "Rapanui",
+        "img": "icecream.png"
+    },
+    {
+        "id": "8",
+        "name": "Thionis Heladeria",
+        "img": "icecream.png"
+    }
+]

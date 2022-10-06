@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import NavIcon from './NavIcon'
 import CartWidget from './CartWidget'
+import { Link } from "react-router-dom"
 import * as ioniconsSolid from '@styled-icons/ionicons-solid'
 const Nav = () => {
     const [darkMode, setDarkMode] = useState(false)
     const DarkModeIcon = ({ className }) => darkMode ? <ioniconsSolid.Sunny className={className} /> : <ioniconsSolid.Moon className={className} />
     return (<nav className="sticky top-0 z-50 flex items-center justify-center w-auto h-20 mx-1 mt-0 transition-all duration-500 navbar dark:bg-softred-300 dark:bg-opacity-80 dark:shadow-sp shadow-sp bg-softred-500 backdrop-blur bg-opacity-60 rounded-b-md">
-        <div className="flex-1 cursor-pointer">
-            <NavIcon className="w-16 ml-10 transition-all duration-500 aspect-square drop-shadow-sp hover:animate-wiggle" />
-            <a className="text-xl normal-case dark:text-white">DinoGo!</a>
-        </div>
+        <Link to="/" className="flex-1 cursor-pointer">
+            <NavIcon className="w-16 ml-10 transition-all duration-500 hover:w-20 aspect-square drop-shadow-sp hover:animate-wiggle" />
+            <h1 className="text-xl font-semibold">DinoGo!</h1>
+        </Link>
         <div className="flex-none">
             <div className="scale-90">
                 <button className="relative block w-16 h-8 rounded-[6.25rem] bg-zinc-500" onClick={() => {
@@ -21,7 +22,7 @@ const Nav = () => {
                     </i>
                 </button>
             </div>
-            <CartWidget/>
+            <CartWidget />
             <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">

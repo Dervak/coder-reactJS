@@ -1,5 +1,4 @@
 import { useLayoutEffect, useRef, useState } from 'react';
-import Categories from "../Categories.json"
 import { FoodPizza } from '@styled-icons/fluentui-system-filled/FoodPizza'
 import { IceCream } from '@styled-icons/ionicons-sharp/IceCream'
 import { Fastfood } from '@styled-icons/material-rounded/Fastfood'
@@ -8,7 +7,8 @@ import { DeliveryDining } from '@styled-icons/material-rounded/DeliveryDining'
 import { Medication } from '@styled-icons/material-rounded/Medication'
 import { PepperHot } from '@styled-icons/fa-solid/PepperHot'
 import { BowlRice } from '@styled-icons/boxicons-solid/BowlRice'
-const CategoryCards = () => {
+import { Link } from "react-router-dom"
+const CategoryCard = ({ link, id, cat }) => {
     const ref = useRef([]);
     const [width, setWidth] = useState(0);
     useLayoutEffect(() => {
@@ -36,12 +36,11 @@ const CategoryCards = () => {
         let size = width / cat.length
         if (size < 17) {
             size = 17
-        } else if (size > 23){
+        } else if (size > 23) {
             size = 23
         }
-            
-        return  size + "px"
-    };
+        return size + "px"
+    }
     const updateSize = ({ ref }) => {
         ref.current.forEach((ref) => {
             ref && (ref.style.fontSize = fontSizeCalc(ref.innerText))
@@ -53,18 +52,11 @@ const CategoryCards = () => {
         })
         updateSize({ ref })
     }
-    const CategoryCard = ({ id, cat }) => {
-        return (
-            <div className="center overflow-y-hidden flex h-16 w-[85%] xl:w-[17%] cursor-pointer items-center justify-evenly gap-x-0 hover:bg-right-bottom  rounded from-slate-300 transition-all duration-700 shadow hover:font-bold sm:w-[43%] lg:w-[27%]">
-                <h3 ref={refs} className="inline w-3/5 font-medium" style={{ fontSize: fontSizeCalc(cat) }}>{cat}</h3>
-                <i className="w-1/5 max-h-fit aspect-square">{categorySwitch(id)}</i>
-            </div>
-        )
-    }
     return (
-        Categories.map(({ id, cat }) => {
-            return (<CategoryCard key={cat} id={id} cat={cat} />)
-        })
+        <Link to={`/${link}`} className="center overflow-y-hidden flex h-16 w-[85%] xl:w-[17%] cursor-pointer items-center justify-evenly gap-x-0 rounded from-slate-300 transition-all duration-700 shadow sm:w-[43%] lg:w-[27%]">
+            <h3 ref={refs} className="inline w-3/5 font-medium" style={{ fontSize: fontSizeCalc(cat) }}>{cat}</h3>
+            <i className="w-1/5 max-h-fit aspect-square">{categorySwitch(id)}</i>
+        </Link>
     )
 }
-export default CategoryCards
+export default CategoryCard

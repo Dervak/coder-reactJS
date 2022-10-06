@@ -7,7 +7,6 @@
     background-size: 200% auto;
     transition: all 1s ease 0s;
 }
-.hover\:bg-right-bottom:hover {
+.from-slate-300:hover {
     background-position: -100% 0;
-    background-image: linear-gradient(to left, #f9828d 50%, #cbd5e1 50%);
 }

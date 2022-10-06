@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Farmacia Laprida",
+        "img": "pharmacy.png"
+    },
+    {
+        "id": "2",
+        "name": "Farmacia Vega",
+        "img": "pharmacy.png"
+    },
+    {
+        "id": "3",
+        "name": "Farmacia Sarmiento",
+        "img": "pharmacy.png"
+    },
+    {
+        "id": "4",
+        "name": "Farmacia Nuevo Comienzo",
+        "img": "pharmacy.png"
+    },
+    {
+        "id": "5",
+        "name": "Farmacia Fragasso",
+        "img": "pharmacy.png"
+    },
+    {
+        "id": "6",
+        "name": "Farmacia Carrefour",
+        "img": "pharmacy.png"
+    },
+    {
+        "id": "7",
+        "name": "Farmacia Brea",
+        "img": "pharmacy.png"
+    },
+    {
+        "id": "8",
+        "name": "Farmacia Gatti",
+        "img": "pharmacy.png"
+    }
+]

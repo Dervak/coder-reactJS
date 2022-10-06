@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Tacobox",
+        "img": "mexican.png"
+    },
+    {
+        "id": "2",
+        "name": "Taquitos Paquito",
+        "img": "mexican.png"
+    },
+    {
+        "id": "3",
+        "name": "Kelo Tacos",
+        "img": "mexican.png"
+    },
+    {
+        "id": "4",
+        "name": "Con Guacamole",
+        "img": "mexican.png"
+    },
+    {
+        "id": "5",
+        "name": "Chango Taquero",
+        "img": "mexican.png"
+    },
+    {
+        "id": "6",
+        "name": "Taqueria sin patrón",
+        "img": "mexican.png"
+    },
+    {
+        "id": "7",
+        "name": "Quetzaltacos",
+        "img": "mexican.png"
+    },
+    {
+        "id": "8",
+        "name": "Thionis Tacos",
+        "img": "mexican.png"
+    }
+]
