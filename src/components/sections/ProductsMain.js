@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import {useParams} from "react-router-dom"
+import { useParams } from "react-router-dom"
 import ProductsCard from "../ProductsCard"
 import { getProducts } from "../../DataHandlers"
 const ProductsMain = () => {
@@ -11,9 +11,9 @@ const ProductsMain = () => {
             return data
         }
         fetchData()
-        .then(data => {
-            setProducts(data)
-        })
+            .then(data => {
+                setProducts(data)
+            })
     }, [])
 
     return (
